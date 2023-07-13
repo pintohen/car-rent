@@ -1,9 +1,5 @@
 package com.example.carrent.domain.car.group;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
-
-@Embeddable
 public enum CarClass {
     UTILITARIAN,
     LUXURY,

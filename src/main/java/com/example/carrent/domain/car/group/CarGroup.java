@@ -14,6 +14,7 @@ public class CarGroup {
     private Name name;
     private NumberOfDoors numberOfDoors;
     private DailyPrice dailyPrice;
+
     @Enumerated(EnumType.STRING)
     @Column(name = "car_class", nullable = false)
     private CarClass carClass;

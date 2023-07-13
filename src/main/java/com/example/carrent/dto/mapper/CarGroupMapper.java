@@ -12,7 +12,7 @@ public class CarGroupMapper {
                 carGroup.getName().getValue(),
                 carGroup.getNumberOfDoors().getValue(),
                 carGroup.getDailyPrice().getValue(),
-                carGroup.getCarClass().name()
+                carGroup.getCarClass()
         );
     }
 

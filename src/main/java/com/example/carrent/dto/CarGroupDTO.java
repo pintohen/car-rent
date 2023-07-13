@@ -1,5 +1,6 @@
 package com.example.carrent.dto;
 
+import com.example.carrent.domain.car.group.CarClass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -10,5 +11,5 @@ public class CarGroupDTO {
     private String name;
     private Integer numberOfDoors;
     private Double dailyPrice;
-    private String carClass;
+    private CarClass carClass;
 }
